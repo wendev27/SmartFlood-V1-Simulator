@@ -1,39 +1,86 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Capstone SmartFlood V1 – Sensor Simulation Prototype
 
-## Getting Started
+## Overview
 
-First, run the development server:
+Capstone SmartFlood V1 – Sensor Simulation Prototype is an early development version of the SmartFlood capstone project.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This repository was created to simulate real-time flood sensor data before integrating actual hardware devices. Since physical IoT sensors were not yet available during the early stages of development, mock sensor values were generated to prototype and validate the monitoring dashboard.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This prototype allowed the team to continue frontend and backend development independently of the hardware implementation.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Purpose
 
-## Learn More
+The objective of this prototype was to:
 
-To learn more about Next.js, take a look at the following resources:
+* Simulate real-time flood sensor readings.
+* Visualize sensor data through a monitoring dashboard.
+* Test frontend components using continuously changing mock data.
+* Prepare the application architecture for future IoT integration.
+* Validate the user experience before connecting real ESP32 sensors.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Technologies Used
 
-## Deploy on Vercel
+* Next.js
+* React
+* TypeScript
+* Mock Data Generator
+* JavaScript / TypeScript
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# Capstone-Flood-Simulator-FE
-# Capstone-Flood-Simulator-MongoDB-FE-BE
-# Capstone-Flood-Simulator-MongoDB-FE-BE
+## Features Explored
+
+* Real-time dashboard prototype
+* Simulated flood sensor readings
+* Automatic mock data updates
+* Early monitoring interface
+* Dashboard visualization experiments
+
+---
+
+## Why Mock Data?
+
+At the time this prototype was developed, the physical IoT sensors had not yet been integrated into the project.
+
+To continue software development without blocking progress, random sensor values were generated to simulate how the dashboard would behave with live data. This allowed rapid iteration of the monitoring interface while preparing for future hardware integration.
+
+---
+
+## Project Evolution
+
+This repository represents one milestone in the evolution of SmartFlood.
+
+The project later evolved to include:
+
+* Improved dashboard architecture
+* Real backend integration
+* AI-assisted flood prediction
+* Role-Based Access Control (RBAC)
+* Frontend and backend separation
+* More production-ready system design
+
+---
+
+## Lessons Learned
+
+This prototype helped me understand:
+
+* Designing dashboards before hardware availability
+* Working with simulated real-time data
+* State management for live updates
+* Component-based UI development
+* The value of building software incrementally
+
+One of the biggest lessons from this project was that software and hardware development do not always have to progress at the same pace. By simulating sensor data, development of the user interface and application logic could continue while waiting for actual IoT devices.
+
+---
+
+## Current Status
+
+📦 Historical Prototype
+
+This repository is preserved as part of the SmartFlood development history and demonstrates the early experimentation phase before actual IoT sensor integration.
